@@ -12,7 +12,7 @@ depends=(qtwebkit python)
 provides=('mendeleydesktop')
 install=mendeleydesktop.install
 
-source=("http://www.mendeley.com/client/get/100-2/${pkgname}-${pkgver}-linux-${_arch}.tar.bz2")
+source=("http://www.mendeley.com/client/get/100-2/$pkgname-$pkgver-linux-$CARCH.tar.bz2")
 sha256sums=('ddbf3eab4f05f225f3c8c971861a1c108e81b8a63acf630031b6d05afbc30947')
 
 package() {
