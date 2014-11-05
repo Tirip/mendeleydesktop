@@ -1,5 +1,5 @@
-# Contributor: Tirip <tirip at yahoo.com>
-# Maintainer: Tirip  <tirip at yahoo.com>
+# Contributor: Tirip <tirip01 at yahoo.com>
+# Maintainer: Tirip  <tirip01 at yahoo.com>
 
 pkgname=mendeleydesktop
 pkgver=1.12.2
