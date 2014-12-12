@@ -2,7 +2,7 @@
 # Maintainer: Tirip  <tirip01 at yahoo.com>
 
 pkgname=mendeleydesktop
-pkgver=1.12.3
+pkgver=1.12.4
 pkgrel=1
 pkgdesc="Academic software for managing and sharing research papers (desktop client)"
 arch=('i686' 'x86_64')
@@ -13,7 +13,7 @@ provides=('mendeleydesktop')
 install=mendeleydesktop.install
 
 source=("http://www.mendeley.com/client/get/100-2/$pkgname-$pkgver-linux-$CARCH.tar.bz2")
-sha256sums=('ddbf3eab4f05f225f3c8c971861a1c108e81b8a63acf630031b6d05afbc30947')
+sha256sums=('958ab1f6a2afe2eeb08658563e99067fd660b2929c3626de6606cf5d2dcc96e8')
 
 package() {
   mkdir -p "$pkgdir"/usr/{bin,lib}
